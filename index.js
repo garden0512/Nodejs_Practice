@@ -1,7 +1,7 @@
 const express = require('express') //모듈 불러오기
 var cors = require('cors') //모듈 불러오기
 const app = express()
-const port = 5102 //로컬호스트(컴)의 포트 번호
+const port = 3000 //로컬호스트(컴)의 포트 번호
 
 app.use(cors()) //cors 모듈을쓰겠다는 의미로, 여러 조건 설정이 가능함.
 
